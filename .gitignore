@@ -1,0 +1,33 @@
+#Unity generated folders
+[Ll]ibrary/
+[Tt]emp/
+[Bb]uild/
+[Bb]uilds/
+[Ll]ogs/
+[Mm]emoryCaptures/
+[Oo]bj/
+[Mm]onoBleedingEdge/
+[Bb]eeTime/
+[Bb]urstCache/
+UserSettings/
+
+#Unity auto-generated files
+*.unityproj
+*.pidb
+*.booproj
+*.svd
+
+#Visual Studio / JetBrains Rider
+.vs/
+.vscode/
+.idea/
+*.csproj
+*.sln
+*.suo
+*.tmp
+*.user
+*.userprefs
+
+#OS generated
+.DS_Store
+Thumbs.db 
