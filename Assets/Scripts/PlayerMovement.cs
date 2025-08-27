@@ -4,15 +4,16 @@ using UnityEngine;
 
 public class PlayerMovement : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+  public float speed = 5;
+    public Rigidbody2D rb;
 
-    // Update is called once per frame
-    void Update()
+    // Fixed Update is called 50x frame
+    void FixedUpdate()
     {
-        
+        float horizontal = Input.GetAxis("Horizontal");
+        float vertical = Input.GetAxis("Vertical");
+
+        rb.velocity = new Vector2(horizontal, vertical) * speed;
+
     }
 }
